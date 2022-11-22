@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giỏ hàng</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/font/fontawesome-free-6.2.0-web/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__bar">
+        <div class="container">
+          <div class="header__bar-wrap d-flex">
+            <a href="#" class="header__logo">
+              <img src="assets/images/logo.png" alt="logo">
+            </a>
+            <div class="header__search d-flex">
+              <input type="search" id="search" placeholder="Tìm kiếm..." />
+              <div class="search__text d-flex"><p>|</p> Tất cả danh mục<i class="fa-solid fa-chevron-down"></i></div>
+              <span class="icon"><i class="fa fa-search"></i></span>
+            </div>
+            <div class="header__login">
+              <a href="dangnhap.html" class="btn-login btn">Đăng nhập</a>
+              <a href="dangki.html" class="btn-register btn btn-rounded">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__menu">
+        <div class="container">
+          <div class="wrap__header-menu d-flex">
+            <ul class="menu d-flex">
+              <li class="header__menu-items">
+                <a href="trangchu.html" class="menu__items-link active">Trang chủ</a>
+              </li>
+              <li class="header__menu-items">
+                <a href="thuonghieu.html" class="menu__items-link">Thương hiệu</a>
+              </li>
+              <li class="header__menu-items">
+                <a href="#" class="menu__items-link">Danh mục sản phẩm<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Nữ</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Nam</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Mini</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Unisex</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-items">
+                <a href="blog.html" class="menu__items-link">Blog<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-items">
+                    <a href="kienthucnuochoa.html" class="submenu__items-link">Kiến thức nước hoa</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="blog.html" class="submenu__items-link">Review nước hoa</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="blog.html" class="submenu__items-link">Tin tức nước hoa</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-items">
+                <a href="lienhe.html" class="menu__items-link">Liên hệ</a>
+              </li>
+            </ul>
+            <div class="header__menu-right">
+              <a href="trangcanhan.html" class="header__menu-icon"><img src="assets/images/icon-user.png" alt="img"></a>
+              <a href="#" class="header__menu-icon"><img src="assets/images/icon-heart.png" alt="img"></a>
+              <a href="giohang.html" class="header__menu-icon"><img src="assets/images/icon-cart.png" alt="img"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__mobile">
+        <div class="overlay_container"></div>
+        <div class="container">
+          <div class="header__mobile-wrap d-flex">
+            <a href="#" class="header__logo">
+              <img src="assets/images/logo.png" alt="logo">
+            </a>
+            <div class="header__menu-right">
+              <div class="header__menu-icon"><i class="fa fa-search"></i></div>
+              <a href="trangcanhan.html" class="header__menu-icon"><img src="assets/images/user-mobile.png" alt="img"></a>
+              <a href="#" class="header__menu-icon"><img src="assets/images/heart-mobile.png" alt="img"></a>
+              <a href="giohang.html" class="header__menu-icon"><img src="assets/images/cart-mobile.png" alt="img"></a>
+              <div class="menu__bars header__menu-icon">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+            <ul class="menu d-flex">
+              <li class="header__menu-items">
+                <a href="trangchu.html" class="menu__items-link active">Trang chủ</a>
+              </li>
+              <li class="header__menu-items">
+                <a href="thuonghieu.html" class="menu__items-link">Thương hiệu</a>
+              </li>
+              <li class="header__menu-items">
+                <a href="#" class="menu__items-link">Danh mục sản phẩm<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Nữ</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Nam</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Mini</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Unisex</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-items">
+                <a href="#" class="menu__items-link">Blog<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-items">
+                    <a href="kienthucnuochoa.html" class="submenu__items-link">Kiến thức nước hoa</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="blog.html" class="submenu__items-link">Review nước hoa</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="blog.html" class="submenu__items-link">Tin tức nước hoa</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-items">
+                <a href="#" class="menu__items-link">Liên hệ</a>
+              </li>
+              <div class="menu__bars hide__menu">
+                <i class="fas fa-bars"></i>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main__cart main">
+      <div class="bread__crumb">
+        <div class="container">
+          <div class="wrap__bread-crumb d-flex">
+            <a href="trangchu.html" class="bread__crumb-active">Trang chủ</a>
+            <p class="bread__crumb-unactive">/ Giỏ hàng</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8">
+            <div class="cart__table">
+              <table>
+                <tr>
+                  <th><img src="assets/images/giohang/check.png" alt="img"></th>
+                  <th>Tất cả sản phẩm</th>
+                  <th>Đơn giá</th>
+                  <th>Số lượng</th>
+                  <th><img src="assets/images/giohang/delete.png" alt="img"></th>
+                </tr>
+                <tr>
+                  <td><img src="assets/images/giohang/check.png" alt="img"></td>
+                  <td class="d-flex">
+                    <img src="assets/images/giohang/1.png" alt="img">
+                    <div class="cart__info">
+                      <p class="cart__info-title">
+                        Nước hoa Valina
+                      </p>
+                      <p>
+                        Kayali Kayali
+                      </p>
+                      <p>
+                        Dung tích 10ml
+                      </p>
+                    </div>
+                  </td>
+                  <td class="price">
+                    170.000 VNĐ
+                  </td>
+                  <td>
+                    <img src="assets/images/giohang/soluong.png" alt="img">
+                  </td>
+                  <td><img src="assets/images/giohang/delete.png" alt="img"></td>
+                </tr>
+                <tr>
+                  <td><img src="assets/images/giohang/check.png" alt="img"></td>
+                  <td class="d-flex">
+                    <img src="assets/images/giohang/2.png" alt="img">
+                    <div class="cart__info">
+                      <p class="cart__info-title">
+                        Nước hoa Donna
+                      </p>
+                      <p>
+                        Code Deco
+                      </p>
+                      <p>
+                        Dung tích 10ml
+                      </p>
+                    </div>
+                  </td>
+                  <td class="price">
+                    150.000 VNĐ
+                  </td>
+                  <td>
+                    <img src="assets/images/giohang/soluong.png" alt="img">
+                  </td>
+                  <td><img src="assets/images/giohang/delete.png" alt="img"></td>
+                </tr>
+                <tr>
+                  <td><img src="assets/images/giohang/check.png" alt="img"></td>
+                  <td class="d-flex">
+                    <img src="assets/images/giohang/3.png" alt="img">
+                    <div class="cart__info">
+                      <p class="cart__info-title">
+                        Nước hoa Ocean
+                      </p>
+                      <p>
+                        Kayali Kayali
+                      </p>
+                      <p>
+                        Dung tích 10ml
+                      </p>
+                    </div>
+                  </td>
+                  <td class="price">
+                    120.000 VNĐ
+                  </td>
+                  <td>
+                    <img src="assets/images/giohang/soluong.png" alt="img">
+                  </td>
+                  <td><img src="assets/images/giohang/delete.png" alt="img"></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <img src="assets/images/giohang/cart-right.png" alt="img">
+            <img src="assets/images/giohang/cart-right2.png" alt="img">
+            <a href="dathang.html" class="btn btn-rounded cart__right-btn">Mua hàng</a>
+          </div>
+        </div>
+        <h2 class="title">Sản phẩm tương tự</h2>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="card">
+              <i class="fa-regular fa-heart"></i>
+              <img src="assets/images/chitietsanpham/ocean.png" alt="perfume img">
+              <h3 class="name">Kayali Kayali</h3>
+              <p class="author">Christian Dior</p>
+              <div class="star flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                4.0
+              </div>
+              <div class="price">
+                Giá: 120.000 VNĐ
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="card">
+              <i class="fa-regular fa-heart"></i>
+              <img src="assets/images/chitietsanpham/rose.png" alt="perfume img">
+              <h3 class="name">Nước hoa Ocean</h3>
+              <p class="author">Christian Dior</p>
+              <div class="star flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                4.0
+              </div>
+              <div class="price">
+                Giá: 450.000 VNĐ
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="card">
+              <i class="fa-regular fa-heart"></i>
+              <img src="assets/images/chitietsanpham/ice.png" alt="perfume img">
+              <h3 class="name">Nước hoa Kayali One</h3>
+              <p class="author">Christian Dior</p>
+              <div class="star flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                4.0
+              </div>
+              <div class="price">
+                Giá: 450.000 VNĐ
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="card">
+              <i class="fa-regular fa-heart"></i>
+              <img src="assets/images/chitietsanpham/miss.png" alt="perfume img">
+              <h3 class="name">Nước hoa Viktor Rolf</h3>
+              <p class="author">Christian Dior</p>
+              <div class="star flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                4.0
+              </div>
+              <div class="price">
+                Giá: 450.000 VNĐ
+              </div>
+            </a>
+          </div>
+        </div>
+        <h2 class="title">Sản phẩm đã xem</h2>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="card">
+              <i class="fa-regular fa-heart"></i>
+              <img src="assets/images/chitietsanpham/black-phantom.png" alt="perfume img">
+              <h3 class="name">Nước hoa Black Phantom</h3>
+              <p class="author">Christian Dior</p>
+              <div class="star flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                4.0
+              </div>
+              <div class="price">
+                Giá: 120.000 VNĐ
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="card">
+              <i class="fa-regular fa-heart"></i>
+              <img src="assets/images/chitietsanpham/eau.png" alt="perfume img">
+              <h3 class="name">Nước hoa Miss Dior</h3>
+              <p class="author">Christian Dior</p>
+              <div class="star flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                4.0
+              </div>
+              <div class="price">
+                Giá: 220.000 VNĐ
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="card">
+              <i class="fa-regular fa-heart"></i>
+              <img src="assets/images/chitietsanpham/good-girl.png" alt="perfume img">
+              <h3 class="name">Nước hoa Goddess</h3>
+              <p class="author">Chanel</p>
+              <div class="star flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                4.0
+              </div>
+              <div class="price">
+                Giá: 450.000 VNĐ
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="card">
+              <i class="fa-regular fa-heart"></i>
+              <img src="assets/images/chitietsanpham/chance-eau.png" alt="perfume img">
+              <h3 class="name">Nước hoa Perfect Only</h3>
+              <p class="author">Gucci</p>
+              <div class="star flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                4.0
+              </div>
+              <div class="price">
+                Giá: 300.000 VNĐ
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <a href="#" class="logo">
+              <img src="assets/images/logo4x.png" alt="logo">
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <p class="footer__info">Địa chỉ: <span>Khu đô thị Định Công, Hoàng Mai, Hà Nội</span></p>
+            <a href="#" class="phone btn btn-rounded">Điện thoại | 0866.481.908</a>
+            <div class="social d-flex">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-solid fa-phone"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="footer__info">Hoạt động: <span>8:00 - 10:30</span></p>
+            <p class="footer__info">Email: <span>Passion@perfume.com</span></p>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-sm-6">
+            <h2 class="footer__title">Danh mục</h2>
+            <a href="chitietsanpham.html" class="footer__link">Nước hoa Nam</a>
+            <a href="chitietsanpham.html" class="footer__link">Nước hoa Nữ</a>
+            <a href="chitietsanpham.html" class="footer__link">Nước hoa Mini</a>
+            <a href="chitietsanpham.html" class="footer__link">Nước hoa Unisex</a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <h2 class="footer__title">Hỗ trợ khách hàng</h2>
+            <a href="lienhe.html" class="footer__link">Hướng dẫn mua hàng</a>
+            <a href="dathang.html" class="footer__link">Giao nhận và thanh toán</a>
+            <a href="lienhe.html" class="footer__link">Đổi trả và bảo hành</a>
+            <a href="dangki.html" class="footer__link">Đăng ký thành viên</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>Copyright © 2022 Công ty Cổ Phần Passion Perfume</p>
+          <div class="footer__img">
+            <img src="assets/images/footer.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

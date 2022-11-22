@@ -1,0 +1,43 @@
+.main__knowledge {
+  .right {
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid #C4C4C4;
+    position: relative;
+    &:before {
+      width: 25%;
+      content: '';
+      height: 2px;
+      background-color: var(--primary);
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+    }
+  }
+  .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #1A1A1E;
+  }
+  a.d-flex {
+    margin-top: 40px;
+    color: #1A1A1E;
+    &:first-child {
+      margin-top: 0;
+    }
+    .text {
+      margin-left: 20px;
+      h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+    }
+    .readmore {
+      height: 18px;
+      margin-top: auto;
+      margin-bottom: 0;
+    }
+  }
+}

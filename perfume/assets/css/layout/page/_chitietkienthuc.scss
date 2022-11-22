@@ -1,0 +1,39 @@
+.main__details-knowledge {
+  .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #1A1A1E;
+  }
+  img {
+    margin: 20px 0;
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .right {
+    font-size: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid #C4C4C4;
+    position: relative;
+    &:before {
+      width: 25%;
+      content: '';
+      height: 2px;
+      background-color: var(--primary);
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+    }
+  }
+  .news__footer {
+    align-items: center;
+    margin-top: 10px;
+    color: #7B849C;
+    i {
+      margin-right: 6px;
+    }
+  }
+}

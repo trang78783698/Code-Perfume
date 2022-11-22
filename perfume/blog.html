@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/font/fontawesome-free-6.2.0-web/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__bar">
+        <div class="container">
+          <div class="header__bar-wrap d-flex">
+            <a href="#" class="header__logo">
+              <img src="assets/images/logo.png" alt="logo">
+            </a>
+            <div class="header__search d-flex">
+              <input type="search" id="search" placeholder="Tìm kiếm..." />
+              <div class="search__text d-flex"><p>|</p> Tất cả danh mục<i class="fa-solid fa-chevron-down"></i></div>
+              <span class="icon"><i class="fa fa-search"></i></span>
+            </div>
+            <div class="header__login">
+              <a href="dangnhap.html" class="btn-login btn">Đăng nhập</a>
+              <a href="dangki.html" class="btn-register btn btn-rounded">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__menu">
+        <div class="container">
+          <div class="wrap__header-menu d-flex">
+            <ul class="menu d-flex">
+              <li class="header__menu-items">
+                <a href="trangchu.html" class="menu__items-link active">Trang chủ</a>
+              </li>
+              <li class="header__menu-items">
+                <a href="thuonghieu.html" class="menu__items-link">Thương hiệu</a>
+              </li>
+              <li class="header__menu-items">
+                <a href="#" class="menu__items-link">Danh mục sản phẩm<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Nữ</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Nam</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Mini</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Unisex</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-items">
+                <a href="blog.html" class="menu__items-link">Blog<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-items">
+                    <a href="kienthucnuochoa.html" class="submenu__items-link">Kiến thức nước hoa</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="blog.html" class="submenu__items-link">Review nước hoa</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="blog.html" class="submenu__items-link">Tin tức nước hoa</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-items">
+                <a href="lienhe.html" class="menu__items-link">Liên hệ</a>
+              </li>
+            </ul>
+            <div class="header__menu-right">
+              <a href="trangcanhan.html" class="header__menu-icon"><img src="assets/images/icon-user.png" alt="img"></a>
+              <a href="#" class="header__menu-icon"><img src="assets/images/icon-heart.png" alt="img"></a>
+              <a href="giohang.html" class="header__menu-icon"><img src="assets/images/icon-cart.png" alt="img"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__mobile">
+        <div class="overlay_container"></div>
+        <div class="container">
+          <div class="header__mobile-wrap d-flex">
+            <a href="#" class="header__logo">
+              <img src="assets/images/logo.png" alt="logo">
+            </a>
+            <div class="header__menu-right">
+              <div class="header__menu-icon"><i class="fa fa-search"></i></div>
+              <a href="trangcanhan.html" class="header__menu-icon"><img src="assets/images/user-mobile.png" alt="img"></a>
+              <a href="#" class="header__menu-icon"><img src="assets/images/heart-mobile.png" alt="img"></a>
+              <a href="giohang.html" class="header__menu-icon"><img src="assets/images/cart-mobile.png" alt="img"></a>
+              <div class="menu__bars header__menu-icon">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+            <ul class="menu d-flex">
+              <li class="header__menu-items">
+                <a href="trangchu.html" class="menu__items-link active">Trang chủ</a>
+              </li>
+              <li class="header__menu-items">
+                <a href="thuonghieu.html" class="menu__items-link">Thương hiệu</a>
+              </li>
+              <li class="header__menu-items">
+                <a href="#" class="menu__items-link">Danh mục sản phẩm<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Nữ</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Nam</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Mini</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="chitietsanpham.html" class="submenu__items-link">Nước hoa Unisex</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-items">
+                <a href="#" class="menu__items-link">Blog<i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-items">
+                    <a href="kienthucnuochoa.html" class="submenu__items-link">Kiến thức nước hoa</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="blog.html" class="submenu__items-link">Review nước hoa</a>
+                  </li>
+                  <li class="header__submenu-items">
+                    <a href="blog.html" class="submenu__items-link">Tin tức nước hoa</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-items">
+                <a href="#" class="menu__items-link">Liên hệ</a>
+              </li>
+              <div class="menu__bars hide__menu">
+                <i class="fas fa-bars"></i>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main__blog main">
+      <div class="bread__crumb">
+        <div class="container">
+          <div class="wrap__bread-crumb d-flex">
+            <a href="trangchu.html" class="bread__crumb-active">Trang chủ</a>
+            <p class="bread__crumb-unactive">/ Blog</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="title">Kiến thức nước hoa</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <a href="kienthucnuochoa.html" class="card__news left">
+              <img src="assets/images/blog/kienthuc4.png" alt="img news">
+              <div class="news__info">
+                <h2>Nước hoa thơm lâu và quyến rũ</h2>
+                <p>Thỉnh thoảng, tâm trạng tan chậm, tạm gác lại mọi công việc, mọi lo lắng, quên đi cơm áo gạo tiền, quên luôn mấy bộ fim ngôn tình sướt mướt…</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>8 Giờ trước | Huyền Trang</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <div class="news__right first d-flex">
+              <img src="assets/images/blog/kienthuc1.png" alt="news image">
+              <div class="news__info">
+                <h2>Mùi hương gắn với nhiều kỷ niệm</h2>
+                <p>"Khứu giác có thể đánh thức những ký ức mạnh mẽ và giàu cảm xúc”.  Những kỷ niệm về con người, nơi chốn và đồ vật có thể được tái hiện chỉ với một mùi hương không thể nào quên.</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>2 Giờ trước | Diệu Thu</p>
+                </div>
+              </div>
+            </div>
+            <div class="news__right d-flex">
+              <img src="assets/images/blog/kienthuc2.png" alt="news image">
+              <div class="news__info">
+                <h2>Tất tần tật về các nhóm hương trong nước hoa</h2>
+                <p>Nước hoa khơi gợi cho chúng ta nhiều cảm xúc khác nhau. Có lúc là hương vị ngọt ngào, nồng nàn, đôi khi là mùi hương trầm ấm</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>4 Giờ trước | Hương Ly</p>
+                </div>
+              </div>
+            </div>
+            <div class="news__right d-flex">
+              <img src="assets/images/blog/kienthuc3.png" alt="news image">
+              <div class="news__info">
+                <h2>Bạn đã biết hết về nước hoa Unisex chưa ?</h2>
+                <p>Khác với những dòng nước hoa chuyên biệt dành cho riêng một giới tính, nước hoa Unisex đã tạo ra mùi hương nhằm tôn lên vẻ quyến rũ của từng cá thể.  </p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>8 Giờ trước | Diệu Thu</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="title">Review nước hoa</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card__news left">
+              <img src="assets/images/blog/review1.png" alt="img news">
+              <div class="news__info">
+                <h2>Có gì trong “nước hoa quý tộc” AFNAN 9AM</h2>
+                <p>Nước hoa ngoài mang lại một hư9am EDP 100ml là dòng nước hoa đến từ thương hiệu Afnan Perfumes của Ả Rập...</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>2 Giờ trước | Diệu Thu</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="news__right first d-flex">
+              <img src="assets/images/blog/review2.png" alt="news image">
+              <div class="news__info">
+                <h2>Review THOMAS KOSMALA NO4 APRÉS L’AMOUR EDP</h2>
+                <p>"Khứu giác có thể đánh thức những ký ức mạnh mẽ và giàu cảm xúc”.  Những kỷ niệm về con người, nơi chốn và đồ vật có thể được tái hiện chỉ với một mùi hương không thể nào quên.</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>5 Giờ trước | Diệu Thu</p>
+                </div>
+              </div>
+            </div>
+            <div class="news__right d-flex">
+              <img src="assets/images/blog/review3.png" alt="news image">
+              <div class="news__info">
+                <h2>Review nước hoa D&G LIGHT BLUE EDIT FOR WOMEN</h2>
+                <p>Nước hoa Thomas Kosmala No. 4 – Après l’Amour được ví như là phiên bản hoàn hảo giữa sự kết hợp của MFK 540 Baccarat Rouge 540 và Another 13 đến từ nhà Le Labo...</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>6 Giờ trước | Hương Ly</p>
+                </div>
+              </div>
+            </div>
+            <div class="news__right d-flex">
+              <img src="assets/images/blog/kienthuc3.png" alt="news image">
+              <div class="news__info">
+                <h2>So sánh YSL bản EDP và Intense</h2>
+                <p>Cả YSL Libre EDP lẫn YSL Libre Intense đều sở hữu vẻ ngoài thời thượng, sang chảnh với màu vàng chủ đạo. Nắp chai màu đen với phần trên được đúc xéo mượt mà, làm nổi bật chai nước hoa. Đặc biệt, phần cổ chai có một lớp nhựa sần.</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>8 Giờ trước | Diệu Thu</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="title">Tin tức nước hoa</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card__news left">
+              <img src="assets/images/blog/news1.png" alt="img news">
+              <div class="news__info">
+                <h2>Chương trình tặng quà tặng tri ân khách hàng</h2>
+                <p>Để đáp lại sự tin tưởng của Quý khách hàng và thay lời cảm ơn sâu sắc đến Quý khách hàng đã gắn bó với cửa hàng chúng tôi ...</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>15 Giờ trước | Diệu Thu</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="news__right first d-flex">
+              <img src="assets/images/blog/news2.png" alt="news image">
+              <div class="news__info">
+                <h2>Săn sale linh đình - thơm xinh đón lễ</h2>
+                <p>Passion Perfume sale ngập tràn những mùi hương nhân dịp sinh nhật cho bạn thêm nhiều sự lựa chọn để làm quà tặng cho những dịp sắp tới đây...</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>6 Giờ trước | Diệu Thu</p>
+                </div>
+              </div>
+            </div>
+            <div class="news__right d-flex">
+              <img src="assets/images/blog/news3.png" alt="news image">
+              <div class="news__info">
+                <h2>Cảnh giác chiêu trò bán nước giả trên các trang MXH</h2>
+                <p>Theo như báo cáo của Viện Da Liễu Trung Ương vừa công bố thì hàng năm ở Việt Nam tiếp nhận hàng trăm ca dị ứng với mỹ phẩm giả trong đó di ứng với nước hoa Fake chiếm số lượng đáng kể...</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>14 Giờ trước | Hương Ly</p>
+                </div>
+              </div>
+            </div>
+            <div class="news__right d-flex">
+              <img src="assets/images/blog/news4.png" alt="news image">
+              <div class="news__info">
+                <h2>Tặng gift voucher kỷ niệm sinh nhật Passion Perfume</h2>
+                <p>Gift voucher được phát hành hàng tháng và số lượng có hạn. Nên quý khách yên tâm, theo dõi Passion Perfume để nhận được voucher và lưu ý lưu lại sớm nha.</p>
+                <div class="news__footer d-flex">
+                  <i class="fa-regular fa-clock"></i>
+                  <p>3 Giờ trước | Diệu Thu</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <a href="#" class="logo">
+              <img src="assets/images/logo4x.png" alt="logo">
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <p class="footer__info">Địa chỉ: <span>Khu đô thị Định Công, Hoàng Mai, Hà Nội</span></p>
+            <a href="#" class="phone btn btn-rounded">Điện thoại | 0866.481.908</a>
+            <div class="social d-flex">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-solid fa-phone"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="footer__info">Hoạt động: <span>8:00 - 10:30</span></p>
+            <p class="footer__info">Email: <span>Passion@perfume.com</span></p>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-sm-6">
+            <h2 class="footer__title">Danh mục</h2>
+            <a href="chitietsanpham.html" class="footer__link">Nước hoa Nam</a>
+            <a href="chitietsanpham.html" class="footer__link">Nước hoa Nữ</a>
+            <a href="chitietsanpham.html" class="footer__link">Nước hoa Mini</a>
+            <a href="chitietsanpham.html" class="footer__link">Nước hoa Unisex</a>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <h2 class="footer__title">Hỗ trợ khách hàng</h2>
+            <a href="lienhe.html" class="footer__link">Hướng dẫn mua hàng</a>
+            <a href="dathang.html" class="footer__link">Giao nhận và thanh toán</a>
+            <a href="lienhe.html" class="footer__link">Đổi trả và bảo hành</a>
+            <a href="dangki.html" class="footer__link">Đăng ký thành viên</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>Copyright © 2022 Công ty Cổ Phần Passion Perfume</p>
+          <div class="footer__img">
+            <img src="assets/images/footer.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

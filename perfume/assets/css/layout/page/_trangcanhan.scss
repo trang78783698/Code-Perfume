@@ -1,0 +1,18 @@
+.main__profile {
+  .profile__box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    .profile__box-title {
+      margin-bottom: 20px;
+      font-size: 32px;
+    }
+    img {
+      margin: 10px 0;
+    }
+    .profile__box-btn {
+      margin-top: 20px;
+      width: 350px;
+    }
+  }
+}
